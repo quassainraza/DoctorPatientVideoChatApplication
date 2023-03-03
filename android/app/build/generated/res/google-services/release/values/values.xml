@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">738088941033-0jj3k7po5oa1uhqgn5cjjdnm0h8m8o64.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">738088941033</string>
+    <string name="google_api_key" translatable="false">AIzaSyCbfjreb49c6fbZmh_fyFUuGJznnbS57LA</string>
+    <string name="google_app_id" translatable="false">1:738088941033:android:87fdcc942a80c7e613c778</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCbfjreb49c6fbZmh_fyFUuGJznnbS57LA</string>
+    <string name="google_storage_bucket" translatable="false">doctorcare-56425.appspot.com</string>
+    <string name="project_id" translatable="false">doctorcare-56425</string>
+</resources>

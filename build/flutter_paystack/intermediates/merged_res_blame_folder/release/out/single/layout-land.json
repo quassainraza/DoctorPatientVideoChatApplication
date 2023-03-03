@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\Qosain\\AndroidStudioProjects\\doctor_care\\build\\flutter_paystack\\intermediates\\merged_res\\release\\layout-land\\mtrl_picker_header_dialog.xml",
+        "source": "C:\\Users\\Qosain\\.gradle\\caches\\transforms-3\\dc710c9fafc9499d79b5ab352ff090fe\\transformed\\material-1.7.0\\res\\layout-land\\mtrl_picker_header_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Qosain\\AndroidStudioProjects\\doctor_care\\build\\flutter_paystack\\intermediates\\merged_res\\release\\layout-land\\material_clock_period_toggle_land.xml",
+        "source": "C:\\Users\\Qosain\\.gradle\\caches\\transforms-3\\dc710c9fafc9499d79b5ab352ff090fe\\transformed\\material-1.7.0\\res\\layout-land\\material_clock_period_toggle_land.xml"
+    },
+    {
+        "merged": "C:\\Users\\Qosain\\AndroidStudioProjects\\doctor_care\\build\\flutter_paystack\\intermediates\\merged_res\\release\\layout-land\\material_timepicker.xml",
+        "source": "C:\\Users\\Qosain\\.gradle\\caches\\transforms-3\\dc710c9fafc9499d79b5ab352ff090fe\\transformed\\material-1.7.0\\res\\layout-land\\material_timepicker.xml"
+    }
+]

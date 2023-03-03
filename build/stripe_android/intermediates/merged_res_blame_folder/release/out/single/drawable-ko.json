@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "C:\\Users\\Qosain\\AndroidStudioProjects\\doctor_care\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable-ko\\donate_with_googlepay_button_content.xml",
+        "source": "C:\\Users\\Qosain\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\stripe_android-8.0.0+1\\android\\src\\main\\res\\drawable-ko\\donate_with_googlepay_button_content.xml"
+    },
+    {
+        "merged": "C:\\Users\\Qosain\\AndroidStudioProjects\\doctor_care\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable-ko\\buy_with_googlepay_button_content.xml",
+        "source": "C:\\Users\\Qosain\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\stripe_android-8.0.0+1\\android\\src\\main\\res\\drawable-ko\\buy_with_googlepay_button_content.xml"
+    },
+    {
+        "merged": "C:\\Users\\Qosain\\AndroidStudioProjects\\doctor_care\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable-ko\\subscribe_with_googlepay_button_content.xml",
+        "source": "C:\\Users\\Qosain\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\stripe_android-8.0.0+1\\android\\src\\main\\res\\drawable-ko\\subscribe_with_googlepay_button_content.xml"
+    },
+    {
+        "merged": "C:\\Users\\Qosain\\AndroidStudioProjects\\doctor_care\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable-ko\\order_with_googlepay_button_content.xml",
+        "source": "C:\\Users\\Qosain\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\stripe_android-8.0.0+1\\android\\src\\main\\res\\drawable-ko\\order_with_googlepay_button_content.xml"
+    },
+    {
+        "merged": "C:\\Users\\Qosain\\AndroidStudioProjects\\doctor_care\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable-ko\\pay_with_googlepay_button_content.xml",
+        "source": "C:\\Users\\Qosain\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\stripe_android-8.0.0+1\\android\\src\\main\\res\\drawable-ko\\pay_with_googlepay_button_content.xml"
+    },
+    {
+        "merged": "C:\\Users\\Qosain\\AndroidStudioProjects\\doctor_care\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable-ko\\book_with_googlepay_button_content.xml",
+        "source": "C:\\Users\\Qosain\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\stripe_android-8.0.0+1\\android\\src\\main\\res\\drawable-ko\\book_with_googlepay_button_content.xml"
+    },
+    {
+        "merged": "C:\\Users\\Qosain\\AndroidStudioProjects\\doctor_care\\build\\stripe_android\\intermediates\\merged_res\\release\\drawable-ko\\checkout_with_googlepay_button_content.xml",
+        "source": "C:\\Users\\Qosain\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\stripe_android-8.0.0+1\\android\\src\\main\\res\\drawable-ko\\checkout_with_googlepay_button_content.xml"
+    }
+]

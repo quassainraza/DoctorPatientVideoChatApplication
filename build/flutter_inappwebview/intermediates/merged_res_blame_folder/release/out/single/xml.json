@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\Qosain\\AndroidStudioProjects\\doctor_care\\build\\flutter_inappwebview\\intermediates\\merged_res\\release\\xml\\image_share_filepaths.xml",
+        "source": "C:\\Users\\Qosain\\.gradle\\caches\\transforms-3\\127f9c6bab8628609acc8caea9d84c21\\transformed\\browser-1.4.0\\res\\xml\\image_share_filepaths.xml"
+    },
+    {
+        "merged": "C:\\Users\\Qosain\\AndroidStudioProjects\\doctor_care\\build\\flutter_inappwebview\\intermediates\\merged_res\\release\\xml\\provider_paths.xml",
+        "source": "C:\\Users\\Qosain\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\flutter_inappwebview-5.7.2+3\\android\\src\\main\\res\\xml\\provider_paths.xml"
+    }
+]

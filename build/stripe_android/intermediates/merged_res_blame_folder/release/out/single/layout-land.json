@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\Qosain\\AndroidStudioProjects\\doctor_care\\build\\stripe_android\\intermediates\\merged_res\\release\\layout-land\\material_timepicker.xml",
+        "source": "C:\\Users\\Qosain\\.gradle\\caches\\transforms-3\\90fabece28e6aa9c6dcd6c0255cb78a6\\transformed\\material-1.6.0\\res\\layout-land\\material_timepicker.xml"
+    },
+    {
+        "merged": "C:\\Users\\Qosain\\AndroidStudioProjects\\doctor_care\\build\\stripe_android\\intermediates\\merged_res\\release\\layout-land\\material_clock_period_toggle_land.xml",
+        "source": "C:\\Users\\Qosain\\.gradle\\caches\\transforms-3\\90fabece28e6aa9c6dcd6c0255cb78a6\\transformed\\material-1.6.0\\res\\layout-land\\material_clock_period_toggle_land.xml"
+    },
+    {
+        "merged": "C:\\Users\\Qosain\\AndroidStudioProjects\\doctor_care\\build\\stripe_android\\intermediates\\merged_res\\release\\layout-land\\mtrl_picker_header_dialog.xml",
+        "source": "C:\\Users\\Qosain\\.gradle\\caches\\transforms-3\\90fabece28e6aa9c6dcd6c0255cb78a6\\transformed\\material-1.6.0\\res\\layout-land\\mtrl_picker_header_dialog.xml"
+    }
+]

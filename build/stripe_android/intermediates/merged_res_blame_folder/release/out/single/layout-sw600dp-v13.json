@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\Qosain\\AndroidStudioProjects\\doctor_care\\build\\stripe_android\\intermediates\\merged_res\\release\\layout-sw600dp-v13\\mtrl_layout_snackbar.xml",
+        "source": "C:\\Users\\Qosain\\.gradle\\caches\\transforms-3\\90fabece28e6aa9c6dcd6c0255cb78a6\\transformed\\material-1.6.0\\res\\layout-sw600dp-v13\\mtrl_layout_snackbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Qosain\\AndroidStudioProjects\\doctor_care\\build\\stripe_android\\intermediates\\merged_res\\release\\layout-sw600dp-v13\\design_layout_snackbar.xml",
+        "source": "C:\\Users\\Qosain\\.gradle\\caches\\transforms-3\\90fabece28e6aa9c6dcd6c0255cb78a6\\transformed\\material-1.6.0\\res\\layout-sw600dp-v13\\design_layout_snackbar.xml"
+    }
+]

@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "C:\\Users\\Qosain\\AndroidStudioProjects\\doctor_care\\build\\flutter_inappwebview\\intermediates\\merged_res\\release\\interpolator\\btn_checkbox_checked_mtrl_animation_interpolator_1.xml",
+        "source": "C:\\Users\\Qosain\\.gradle\\caches\\transforms-3\\79f20a20e1b456425bade4d3fa91b433\\transformed\\appcompat-1.5.1\\res\\interpolator\\btn_checkbox_checked_mtrl_animation_interpolator_1.xml"
+    },
+    {
+        "merged": "C:\\Users\\Qosain\\AndroidStudioProjects\\doctor_care\\build\\flutter_inappwebview\\intermediates\\merged_res\\release\\interpolator\\btn_checkbox_unchecked_mtrl_animation_interpolator_0.xml",
+        "source": "C:\\Users\\Qosain\\.gradle\\caches\\transforms-3\\79f20a20e1b456425bade4d3fa91b433\\transformed\\appcompat-1.5.1\\res\\interpolator\\btn_checkbox_unchecked_mtrl_animation_interpolator_0.xml"
+    },
+    {
+        "merged": "C:\\Users\\Qosain\\AndroidStudioProjects\\doctor_care\\build\\flutter_inappwebview\\intermediates\\merged_res\\release\\interpolator\\fast_out_slow_in.xml",
+        "source": "C:\\Users\\Qosain\\.gradle\\caches\\transforms-3\\79f20a20e1b456425bade4d3fa91b433\\transformed\\appcompat-1.5.1\\res\\interpolator\\fast_out_slow_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\Qosain\\AndroidStudioProjects\\doctor_care\\build\\flutter_inappwebview\\intermediates\\merged_res\\release\\interpolator\\btn_radio_to_on_mtrl_animation_interpolator_0.xml",
+        "source": "C:\\Users\\Qosain\\.gradle\\caches\\transforms-3\\79f20a20e1b456425bade4d3fa91b433\\transformed\\appcompat-1.5.1\\res\\interpolator\\btn_radio_to_on_mtrl_animation_interpolator_0.xml"
+    },
+    {
+        "merged": "C:\\Users\\Qosain\\AndroidStudioProjects\\doctor_care\\build\\flutter_inappwebview\\intermediates\\merged_res\\release\\interpolator\\btn_checkbox_checked_mtrl_animation_interpolator_0.xml",
+        "source": "C:\\Users\\Qosain\\.gradle\\caches\\transforms-3\\79f20a20e1b456425bade4d3fa91b433\\transformed\\appcompat-1.5.1\\res\\interpolator\\btn_checkbox_checked_mtrl_animation_interpolator_0.xml"
+    },
+    {
+        "merged": "C:\\Users\\Qosain\\AndroidStudioProjects\\doctor_care\\build\\flutter_inappwebview\\intermediates\\merged_res\\release\\interpolator\\btn_checkbox_unchecked_mtrl_animation_interpolator_1.xml",
+        "source": "C:\\Users\\Qosain\\.gradle\\caches\\transforms-3\\79f20a20e1b456425bade4d3fa91b433\\transformed\\appcompat-1.5.1\\res\\interpolator\\btn_checkbox_unchecked_mtrl_animation_interpolator_1.xml"
+    },
+    {
+        "merged": "C:\\Users\\Qosain\\AndroidStudioProjects\\doctor_care\\build\\flutter_inappwebview\\intermediates\\merged_res\\release\\interpolator\\btn_radio_to_off_mtrl_animation_interpolator_0.xml",
+        "source": "C:\\Users\\Qosain\\.gradle\\caches\\transforms-3\\79f20a20e1b456425bade4d3fa91b433\\transformed\\appcompat-1.5.1\\res\\interpolator\\btn_radio_to_off_mtrl_animation_interpolator_0.xml"
+    }
+]

@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Qosain\\AndroidStudioProjects\\doctor_care\\build\\stripe_android\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-ldpi-v4\\values-ldpi-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Qosain\\.gradle\\caches\\transforms-3\\a3d84d0568c55d63e727e9486cde31f2\\transformed\\jetified-payments-core-20.16.2\\res\\values-ldpi-v4\\values-ldpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "56",
+                        "endOffsets": "107"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Qosain\\AndroidStudioProjects\\doctor_care\\build\\stripe_android\\intermediates\\merged_res\\release\\values-ldpi-v4\\values-ldpi-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Qosain\\.gradle\\caches\\transforms-3\\a3d84d0568c55d63e727e9486cde31f2\\transformed\\jetified-payments-core-20.16.2\\res\\values-ldpi-v4\\values-ldpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "56",
+                        "endOffsets": "107"
+                    }
+                }
+            ]
+        }
+    ]
+}

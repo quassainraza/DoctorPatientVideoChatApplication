@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "C:\\Users\\Qosain\\AndroidStudioProjects\\doctor_care\\build\\stripe_android\\intermediates\\merged_res\\release\\color-v31\\m3_dynamic_dark_highlighted_text.xml",
+        "source": "C:\\Users\\Qosain\\.gradle\\caches\\transforms-3\\90fabece28e6aa9c6dcd6c0255cb78a6\\transformed\\material-1.6.0\\res\\color-v31\\m3_dynamic_dark_highlighted_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\Qosain\\AndroidStudioProjects\\doctor_care\\build\\stripe_android\\intermediates\\merged_res\\release\\color-v31\\m3_dynamic_dark_default_color_primary_text.xml",
+        "source": "C:\\Users\\Qosain\\.gradle\\caches\\transforms-3\\90fabece28e6aa9c6dcd6c0255cb78a6\\transformed\\material-1.6.0\\res\\color-v31\\m3_dynamic_dark_default_color_primary_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\Qosain\\AndroidStudioProjects\\doctor_care\\build\\stripe_android\\intermediates\\merged_res\\release\\color-v31\\m3_dynamic_default_color_secondary_text.xml",
+        "source": "C:\\Users\\Qosain\\.gradle\\caches\\transforms-3\\90fabece28e6aa9c6dcd6c0255cb78a6\\transformed\\material-1.6.0\\res\\color-v31\\m3_dynamic_default_color_secondary_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\Qosain\\AndroidStudioProjects\\doctor_care\\build\\stripe_android\\intermediates\\merged_res\\release\\color-v31\\m3_dynamic_highlighted_text.xml",
+        "source": "C:\\Users\\Qosain\\.gradle\\caches\\transforms-3\\90fabece28e6aa9c6dcd6c0255cb78a6\\transformed\\material-1.6.0\\res\\color-v31\\m3_dynamic_highlighted_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\Qosain\\AndroidStudioProjects\\doctor_care\\build\\stripe_android\\intermediates\\merged_res\\release\\color-v31\\m3_dynamic_default_color_primary_text.xml",
+        "source": "C:\\Users\\Qosain\\.gradle\\caches\\transforms-3\\90fabece28e6aa9c6dcd6c0255cb78a6\\transformed\\material-1.6.0\\res\\color-v31\\m3_dynamic_default_color_primary_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\Qosain\\AndroidStudioProjects\\doctor_care\\build\\stripe_android\\intermediates\\merged_res\\release\\color-v31\\m3_dynamic_dark_primary_text_disable_only.xml",
+        "source": "C:\\Users\\Qosain\\.gradle\\caches\\transforms-3\\90fabece28e6aa9c6dcd6c0255cb78a6\\transformed\\material-1.6.0\\res\\color-v31\\m3_dynamic_dark_primary_text_disable_only.xml"
+    },
+    {
+        "merged": "C:\\Users\\Qosain\\AndroidStudioProjects\\doctor_care\\build\\stripe_android\\intermediates\\merged_res\\release\\color-v31\\m3_dynamic_dark_default_color_secondary_text.xml",
+        "source": "C:\\Users\\Qosain\\.gradle\\caches\\transforms-3\\90fabece28e6aa9c6dcd6c0255cb78a6\\transformed\\material-1.6.0\\res\\color-v31\\m3_dynamic_dark_default_color_secondary_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\Qosain\\AndroidStudioProjects\\doctor_care\\build\\stripe_android\\intermediates\\merged_res\\release\\color-v31\\m3_dynamic_hint_foreground.xml",
+        "source": "C:\\Users\\Qosain\\.gradle\\caches\\transforms-3\\90fabece28e6aa9c6dcd6c0255cb78a6\\transformed\\material-1.6.0\\res\\color-v31\\m3_dynamic_hint_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Qosain\\AndroidStudioProjects\\doctor_care\\build\\stripe_android\\intermediates\\merged_res\\release\\color-v31\\m3_dynamic_primary_text_disable_only.xml",
+        "source": "C:\\Users\\Qosain\\.gradle\\caches\\transforms-3\\90fabece28e6aa9c6dcd6c0255cb78a6\\transformed\\material-1.6.0\\res\\color-v31\\m3_dynamic_primary_text_disable_only.xml"
+    },
+    {
+        "merged": "C:\\Users\\Qosain\\AndroidStudioProjects\\doctor_care\\build\\stripe_android\\intermediates\\merged_res\\release\\color-v31\\m3_dynamic_dark_hint_foreground.xml",
+        "source": "C:\\Users\\Qosain\\.gradle\\caches\\transforms-3\\90fabece28e6aa9c6dcd6c0255cb78a6\\transformed\\material-1.6.0\\res\\color-v31\\m3_dynamic_dark_hint_foreground.xml"
+    }
+]

@@ -1,0 +1,855 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.doctor_app"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="33" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Users\Qosain\AndroidStudioProjects\doctor_care\android\app\src\main\AndroidManifest.xml:5:5-66
+14-->C:\Users\Qosain\AndroidStudioProjects\doctor_care\android\app\src\main\AndroidManifest.xml:5:22-64
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->C:\Users\Qosain\AndroidStudioProjects\doctor_care\android\app\src\main\AndroidManifest.xml:3:5-79
+15-->C:\Users\Qosain\AndroidStudioProjects\doctor_care\android\app\src\main\AndroidManifest.xml:3:22-76
+16    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+16-->C:\Users\Qosain\AndroidStudioProjects\doctor_care\android\app\src\main\AndroidManifest.xml:4:5-81
+16-->C:\Users\Qosain\AndroidStudioProjects\doctor_care\android\app\src\main\AndroidManifest.xml:4:22-78
+17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+17-->C:\Users\Qosain\AndroidStudioProjects\doctor_care\android\app\src\main\AndroidManifest.xml:6:5-80
+17-->C:\Users\Qosain\AndroidStudioProjects\doctor_care\android\app\src\main\AndroidManifest.xml:6:22-77
+18    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+18-->C:\Users\Qosain\AndroidStudioProjects\doctor_care\android\app\src\main\AndroidManifest.xml:7:5-81
+18-->C:\Users\Qosain\AndroidStudioProjects\doctor_care\android\app\src\main\AndroidManifest.xml:7:22-78
+19    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+19-->C:\Users\Qosain\AndroidStudioProjects\doctor_care\android\app\src\main\AndroidManifest.xml:8:5-76
+19-->C:\Users\Qosain\AndroidStudioProjects\doctor_care\android\app\src\main\AndroidManifest.xml:8:22-73
+20    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+20-->C:\Users\Qosain\AndroidStudioProjects\doctor_care\android\app\src\main\AndroidManifest.xml:9:5-75
+20-->C:\Users\Qosain\AndroidStudioProjects\doctor_care\android\app\src\main\AndroidManifest.xml:9:22-72
+21    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+21-->C:\Users\Qosain\AndroidStudioProjects\doctor_care\android\app\src\main\AndroidManifest.xml:10:5-75
+21-->C:\Users\Qosain\AndroidStudioProjects\doctor_care\android\app\src\main\AndroidManifest.xml:10:22-72
+22    <uses-permission android:name="android.permission.WAKE_LOCK" />
+22-->C:\Users\Qosain\AndroidStudioProjects\doctor_care\android\app\src\main\AndroidManifest.xml:11:5-68
+22-->C:\Users\Qosain\AndroidStudioProjects\doctor_care\android\app\src\main\AndroidManifest.xml:11:22-65
+23    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+23-->C:\Users\Qosain\AndroidStudioProjects\doctor_care\android\app\src\main\AndroidManifest.xml:12:5-74
+23-->C:\Users\Qosain\AndroidStudioProjects\doctor_care\android\app\src\main\AndroidManifest.xml:12:22-72
+24    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+24-->C:\Users\Qosain\AndroidStudioProjects\doctor_care\android\app\src\main\AndroidManifest.xml:13:5-70
+24-->C:\Users\Qosain\AndroidStudioProjects\doctor_care\android\app\src\main\AndroidManifest.xml:13:22-68
+25    <uses-permission android:name="android.permission.CAMERA" />
+25-->C:\Users\Qosain\AndroidStudioProjects\doctor_care\android\app\src\main\AndroidManifest.xml:14:5-64
+25-->C:\Users\Qosain\AndroidStudioProjects\doctor_care\android\app\src\main\AndroidManifest.xml:14:22-62
+26    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+26-->C:\Users\Qosain\AndroidStudioProjects\doctor_care\android\app\src\main\AndroidManifest.xml:15:5-79
+26-->C:\Users\Qosain\AndroidStudioProjects\doctor_care\android\app\src\main\AndroidManifest.xml:15:22-77
+27    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+27-->C:\Users\Qosain\AndroidStudioProjects\doctor_care\android\app\src\main\AndroidManifest.xml:16:5-78
+27-->C:\Users\Qosain\AndroidStudioProjects\doctor_care\android\app\src\main\AndroidManifest.xml:16:22-76
+28    <uses-permission android:name="android.permission.BLUETOOTH" />
+28-->C:\Users\Qosain\AndroidStudioProjects\doctor_care\android\app\src\main\AndroidManifest.xml:17:5-67
+28-->C:\Users\Qosain\AndroidStudioProjects\doctor_care\android\app\src\main\AndroidManifest.xml:17:22-65
+29
+30    <queries>
+30-->[:file_picker] C:\Users\Qosain\AndroidStudioProjects\doctor_care\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-17:15
+31        <intent>
+31-->[:file_picker] C:\Users\Qosain\AndroidStudioProjects\doctor_care\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:12:9-16:18
+32            <action android:name="android.intent.action.GET_CONTENT" />
+32-->[:file_picker] C:\Users\Qosain\AndroidStudioProjects\doctor_care\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-72
+32-->[:file_picker] C:\Users\Qosain\AndroidStudioProjects\doctor_care\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:13:21-69
+33
+34            <data android:mimeType="*/*" />
+34-->[:file_picker] C:\Users\Qosain\AndroidStudioProjects\doctor_care\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-44
+34-->[:file_picker] C:\Users\Qosain\AndroidStudioProjects\doctor_care\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:15:19-41
+35        </intent>
+36        <intent>
+36-->[:flutter_inappwebview] C:\Users\Qosain\AndroidStudioProjects\doctor_care\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-12:18
+37            <action android:name="android.support.customtabs.action.CustomTabsService" />
+37-->[:flutter_inappwebview] C:\Users\Qosain\AndroidStudioProjects\doctor_care\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-90
+37-->[:flutter_inappwebview] C:\Users\Qosain\AndroidStudioProjects\doctor_care\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:11:21-87
+38        </intent> <!-- Added to check if Chrome is installed for browser-based payment authentication (e.g. 3DS1). -->
+39        <package android:name="com.android.chrome" /> <!-- Added to check the default browser that will host the AuthFlow. -->
+39-->[com.stripe:payments-core:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\a3d84d0568c55d63e727e9486cde31f2\transformed\jetified-payments-core-20.16.2\AndroidManifest.xml:13:9-54
+39-->[com.stripe:payments-core:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\a3d84d0568c55d63e727e9486cde31f2\transformed\jetified-payments-core-20.16.2\AndroidManifest.xml:13:18-51
+40        <intent>
+40-->[com.stripe:financial-connections:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\782c714d120dbe6e194c7f4d9de5f2d7\transformed\jetified-financial-connections-20.16.2\AndroidManifest.xml:15:9-19:18
+41            <action android:name="android.intent.action.VIEW" />
+41-->[com.stripe:payments-core:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\a3d84d0568c55d63e727e9486cde31f2\transformed\jetified-payments-core-20.16.2\AndroidManifest.xml:54:17-69
+41-->[com.stripe:payments-core:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\a3d84d0568c55d63e727e9486cde31f2\transformed\jetified-payments-core-20.16.2\AndroidManifest.xml:54:25-66
+42
+43            <data android:scheme="http" />
+43-->[:file_picker] C:\Users\Qosain\AndroidStudioProjects\doctor_care\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-44
+44        </intent> <!-- Needs to be explicitly declared on Android R+ -->
+45        <package android:name="com.google.android.apps.maps" />
+45-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Qosain\.gradle\caches\transforms-3\47c055c3e4d056e3ef185667414920a1\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:33:9-64
+45-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Qosain\.gradle\caches\transforms-3\47c055c3e4d056e3ef185667414920a1\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:33:18-61
+46    </queries>
+47
+48    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+48-->[:agora_rtc_engine] C:\Users\Qosain\AndroidStudioProjects\doctor_care\build\agora_rtc_engine\intermediates\merged_manifest\debug\AndroidManifest.xml:17:5-76
+48-->[:agora_rtc_engine] C:\Users\Qosain\AndroidStudioProjects\doctor_care\build\agora_rtc_engine\intermediates\merged_manifest\debug\AndroidManifest.xml:17:22-73
+49    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE" />
+49-->[:agora_rtc_engine] C:\Users\Qosain\AndroidStudioProjects\doctor_care\build\agora_rtc_engine\intermediates\merged_manifest\debug\AndroidManifest.xml:19:5-21:47
+49-->[:agora_rtc_engine] C:\Users\Qosain\AndroidStudioProjects\doctor_care\build\agora_rtc_engine\intermediates\merged_manifest\debug\AndroidManifest.xml:20:9-70
+50    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+50-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\Qosain\.gradle\caches\transforms-3\2c47cca1684158c76435ea240736c9f4\transformed\jetified-play-services-measurement-api-21.2.0\AndroidManifest.xml:25:5-79
+50-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\Qosain\.gradle\caches\transforms-3\2c47cca1684158c76435ea240736c9f4\transformed\jetified-play-services-measurement-api-21.2.0\AndroidManifest.xml:25:22-76
+51    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+51-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Qosain\.gradle\caches\transforms-3\b93be6e0a145c81fe84f0b5d50b03f34\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:26:5-110
+51-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Qosain\.gradle\caches\transforms-3\b93be6e0a145c81fe84f0b5d50b03f34\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:26:22-107
+52
+53    <uses-feature
+53-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Qosain\.gradle\caches\transforms-3\47c055c3e4d056e3ef185667414920a1\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:26:5-28:35
+54        android:glEsVersion="0x00020000"
+54-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Qosain\.gradle\caches\transforms-3\47c055c3e4d056e3ef185667414920a1\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:27:9-41
+55        android:required="true" />
+55-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Qosain\.gradle\caches\transforms-3\47c055c3e4d056e3ef185667414920a1\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:28:9-32
+56
+57    <permission
+57-->[androidx.core:core:1.9.0] C:\Users\Qosain\.gradle\caches\transforms-3\d2594a21e4cb8fd70081ea5a633df054\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+58        android:name="com.example.doctor_app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+58-->[androidx.core:core:1.9.0] C:\Users\Qosain\.gradle\caches\transforms-3\d2594a21e4cb8fd70081ea5a633df054\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+59        android:protectionLevel="signature" />
+59-->[androidx.core:core:1.9.0] C:\Users\Qosain\.gradle\caches\transforms-3\d2594a21e4cb8fd70081ea5a633df054\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+60
+61    <uses-permission android:name="com.example.doctor_app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+61-->[androidx.core:core:1.9.0] C:\Users\Qosain\.gradle\caches\transforms-3\d2594a21e4cb8fd70081ea5a633df054\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+61-->[androidx.core:core:1.9.0] C:\Users\Qosain\.gradle\caches\transforms-3\d2594a21e4cb8fd70081ea5a633df054\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+62    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+62-->[io.agora.rtc:full-screen-sharing:4.1.0-1] C:\Users\Qosain\.gradle\caches\transforms-3\c8c0810160387045ef721c450bbbf206\transformed\jetified-full-screen-sharing-4.1.0-1\AndroidManifest.xml:7:5-77
+62-->[io.agora.rtc:full-screen-sharing:4.1.0-1] C:\Users\Qosain\.gradle\caches\transforms-3\c8c0810160387045ef721c450bbbf206\transformed\jetified-full-screen-sharing-4.1.0-1\AndroidManifest.xml:7:22-74
+63
+64    <application
+64-->C:\Users\Qosain\AndroidStudioProjects\doctor_care\android\app\src\main\AndroidManifest.xml:19:4-57:19
+65        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+65-->[androidx.core:core:1.9.0] C:\Users\Qosain\.gradle\caches\transforms-3\d2594a21e4cb8fd70081ea5a633df054\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+66        android:debuggable="true"
+67        android:extractNativeLibs="false"
+68        android:icon="@mipmap/ic_launcher"
+68-->C:\Users\Qosain\AndroidStudioProjects\doctor_care\android\app\src\main\AndroidManifest.xml:21:9-43
+69        android:label="doctor_app" >
+69-->C:\Users\Qosain\AndroidStudioProjects\doctor_care\android\app\src\main\AndroidManifest.xml:20:9-35
+70        <activity
+70-->C:\Users\Qosain\AndroidStudioProjects\doctor_care\android\app\src\main\AndroidManifest.xml:22:9-51:20
+71            android:name="com.example.doctor_app.MainActivity"
+71-->C:\Users\Qosain\AndroidStudioProjects\doctor_care\android\app\src\main\AndroidManifest.xml:23:13-41
+72            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+72-->C:\Users\Qosain\AndroidStudioProjects\doctor_care\android\app\src\main\AndroidManifest.xml:27:13-163
+73            android:exported="true"
+73-->C:\Users\Qosain\AndroidStudioProjects\doctor_care\android\app\src\main\AndroidManifest.xml:24:13-36
+74            android:hardwareAccelerated="true"
+74-->C:\Users\Qosain\AndroidStudioProjects\doctor_care\android\app\src\main\AndroidManifest.xml:28:13-47
+75            android:launchMode="singleTop"
+75-->C:\Users\Qosain\AndroidStudioProjects\doctor_care\android\app\src\main\AndroidManifest.xml:25:13-43
+76            android:theme="@style/LaunchTheme"
+76-->C:\Users\Qosain\AndroidStudioProjects\doctor_care\android\app\src\main\AndroidManifest.xml:26:13-47
+77            android:windowSoftInputMode="adjustResize" >
+77-->C:\Users\Qosain\AndroidStudioProjects\doctor_care\android\app\src\main\AndroidManifest.xml:29:13-55
+78
+79            <!--
+80                 Specifies an Android theme to apply to this Activity as soon as
+81                 the Android process has started. This theme is visible to the user
+82                 while the Flutter UI initializes. After that, this theme continues
+83                 to determine the Window background behind the Flutter UI.
+84            -->
+85            <meta-data
+85-->C:\Users\Qosain\AndroidStudioProjects\doctor_care\android\app\src\main\AndroidManifest.xml:34:13-37:17
+86                android:name="io.flutter.embedding.android.NormalTheme"
+86-->C:\Users\Qosain\AndroidStudioProjects\doctor_care\android\app\src\main\AndroidManifest.xml:35:15-70
+87                android:resource="@style/NormalTheme" />
+87-->C:\Users\Qosain\AndroidStudioProjects\doctor_care\android\app\src\main\AndroidManifest.xml:36:15-52
+88            <!--
+89                 Displays an Android View that continues showing the launch screen
+90                 Drawable until Flutter paints its first frame, then this splash
+91                 screen fades out. A splash screen is useful to avoid any visual
+92                 gap between the end of Android's launch screen and the painting of
+93                 Flutter's first frame.
+94            -->
+95            <meta-data
+95-->C:\Users\Qosain\AndroidStudioProjects\doctor_care\android\app\src\main\AndroidManifest.xml:43:13-46:17
+96                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+96-->C:\Users\Qosain\AndroidStudioProjects\doctor_care\android\app\src\main\AndroidManifest.xml:44:15-79
+97                android:resource="@drawable/launch_background" />
+97-->C:\Users\Qosain\AndroidStudioProjects\doctor_care\android\app\src\main\AndroidManifest.xml:45:15-61
+98
+99            <intent-filter>
+99-->C:\Users\Qosain\AndroidStudioProjects\doctor_care\android\app\src\main\AndroidManifest.xml:47:13-50:29
+100                <action android:name="android.intent.action.MAIN" />
+100-->C:\Users\Qosain\AndroidStudioProjects\doctor_care\android\app\src\main\AndroidManifest.xml:48:17-68
+100-->C:\Users\Qosain\AndroidStudioProjects\doctor_care\android\app\src\main\AndroidManifest.xml:48:25-66
+101
+102                <category android:name="android.intent.category.LAUNCHER" />
+102-->C:\Users\Qosain\AndroidStudioProjects\doctor_care\android\app\src\main\AndroidManifest.xml:49:17-76
+102-->C:\Users\Qosain\AndroidStudioProjects\doctor_care\android\app\src\main\AndroidManifest.xml:49:27-74
+103            </intent-filter>
+104        </activity>
+105        <!--
+106             Don't delete the meta-data below.
+107             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+108        -->
+109        <meta-data
+109-->C:\Users\Qosain\AndroidStudioProjects\doctor_care\android\app\src\main\AndroidManifest.xml:54:9-56:33
+110            android:name="flutterEmbedding"
+110-->C:\Users\Qosain\AndroidStudioProjects\doctor_care\android\app\src\main\AndroidManifest.xml:55:13-44
+111            android:value="2" />
+111-->C:\Users\Qosain\AndroidStudioProjects\doctor_care\android\app\src\main\AndroidManifest.xml:56:13-30
+112
+113        <activity
+113-->[:flutter_paystack] C:\Users\Qosain\AndroidStudioProjects\doctor_care\build\flutter_paystack\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-12:54
+114            android:name="co.paystack.flutterpaystack.AuthActivity"
+114-->[:flutter_paystack] C:\Users\Qosain\AndroidStudioProjects\doctor_care\build\flutter_paystack\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-68
+115            android:theme="@style/Paystack.Dialog" />
+115-->[:flutter_paystack] C:\Users\Qosain\AndroidStudioProjects\doctor_care\build\flutter_paystack\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-51
+116
+117        <service
+117-->[:firebase_database] C:\Users\Qosain\AndroidStudioProjects\doctor_care\build\firebase_database\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-14:19
+118            android:name="com.google.firebase.components.ComponentDiscoveryService"
+118-->[:firebase_database] C:\Users\Qosain\AndroidStudioProjects\doctor_care\build\firebase_database\intermediates\merged_manifest\debug\AndroidManifest.xml:10:18-89
+119            android:directBootAware="true"
+119-->[com.google.firebase:firebase-common:20.3.0] C:\Users\Qosain\.gradle\caches\transforms-3\04d79134ce7d293d97022730489f1687\transformed\jetified-firebase-common-20.3.0\AndroidManifest.xml:34:13-43
+120            android:exported="false" >
+120-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Qosain\.gradle\caches\transforms-3\daf6aeb49ab64c37bf861602c6087e6c\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:66:13-37
+121            <meta-data
+121-->[:firebase_database] C:\Users\Qosain\AndroidStudioProjects\doctor_care\build\firebase_database\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+122                android:name="com.google.firebase.components:io.flutter.plugins.firebase.database.FlutterFirebaseAppRegistrar"
+122-->[:firebase_database] C:\Users\Qosain\AndroidStudioProjects\doctor_care\build\firebase_database\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-127
+123                android:value="com.google.firebase.components.ComponentRegistrar" />
+123-->[:firebase_database] C:\Users\Qosain\AndroidStudioProjects\doctor_care\build\firebase_database\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+124            <meta-data
+124-->[:cloud_firestore] C:\Users\Qosain\AndroidStudioProjects\doctor_care\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+125                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+125-->[:cloud_firestore] C:\Users\Qosain\AndroidStudioProjects\doctor_care\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-134
+126                android:value="com.google.firebase.components.ComponentRegistrar" />
+126-->[:cloud_firestore] C:\Users\Qosain\AndroidStudioProjects\doctor_care\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+127            <meta-data
+127-->[:firebase_auth] C:\Users\Qosain\AndroidStudioProjects\doctor_care\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+128                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+128-->[:firebase_auth] C:\Users\Qosain\AndroidStudioProjects\doctor_care\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-124
+129                android:value="com.google.firebase.components.ComponentRegistrar" />
+129-->[:firebase_auth] C:\Users\Qosain\AndroidStudioProjects\doctor_care\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+130            <meta-data
+130-->[:firebase_storage] C:\Users\Qosain\AndroidStudioProjects\doctor_care\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+131                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
+131-->[:firebase_storage] C:\Users\Qosain\AndroidStudioProjects\doctor_care\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-126
+132                android:value="com.google.firebase.components.ComponentRegistrar" />
+132-->[:firebase_storage] C:\Users\Qosain\AndroidStudioProjects\doctor_care\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+133            <meta-data
+133-->[:firebase_core] C:\Users\Qosain\AndroidStudioProjects\doctor_care\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+134                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+134-->[:firebase_core] C:\Users\Qosain\AndroidStudioProjects\doctor_care\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-124
+135                android:value="com.google.firebase.components.ComponentRegistrar" />
+135-->[:firebase_core] C:\Users\Qosain\AndroidStudioProjects\doctor_care\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+136            <meta-data
+136-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Qosain\.gradle\caches\transforms-3\daf6aeb49ab64c37bf861602c6087e6c\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:67:13-69:85
+137                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+137-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Qosain\.gradle\caches\transforms-3\daf6aeb49ab64c37bf861602c6087e6c\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:68:17-109
+138                android:value="com.google.firebase.components.ComponentRegistrar" />
+138-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Qosain\.gradle\caches\transforms-3\daf6aeb49ab64c37bf861602c6087e6c\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:69:17-82
+139            <meta-data
+139-->[com.google.firebase:firebase-database:20.1.0] C:\Users\Qosain\.gradle\caches\transforms-3\315d86c0237a239608fd29255b176a93\transformed\jetified-firebase-database-20.1.0\AndroidManifest.xml:31:13-33:85
+140                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+140-->[com.google.firebase:firebase-database:20.1.0] C:\Users\Qosain\.gradle\caches\transforms-3\315d86c0237a239608fd29255b176a93\transformed\jetified-firebase-database-20.1.0\AndroidManifest.xml:32:17-109
+141                android:value="com.google.firebase.components.ComponentRegistrar" />
+141-->[com.google.firebase:firebase-database:20.1.0] C:\Users\Qosain\.gradle\caches\transforms-3\315d86c0237a239608fd29255b176a93\transformed\jetified-firebase-database-20.1.0\AndroidManifest.xml:33:17-82
+142            <meta-data
+142-->[com.google.firebase:firebase-firestore:24.4.2] C:\Users\Qosain\.gradle\caches\transforms-3\0b96e1c240c9ffeb4ccacca8ba030bb9\transformed\jetified-firebase-firestore-24.4.2\AndroidManifest.xml:19:13-21:85
+143                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+143-->[com.google.firebase:firebase-firestore:24.4.2] C:\Users\Qosain\.gradle\caches\transforms-3\0b96e1c240c9ffeb4ccacca8ba030bb9\transformed\jetified-firebase-firestore-24.4.2\AndroidManifest.xml:20:17-111
+144                android:value="com.google.firebase.components.ComponentRegistrar" />
+144-->[com.google.firebase:firebase-firestore:24.4.2] C:\Users\Qosain\.gradle\caches\transforms-3\0b96e1c240c9ffeb4ccacca8ba030bb9\transformed\jetified-firebase-firestore-24.4.2\AndroidManifest.xml:21:17-82
+145            <meta-data
+145-->[com.google.firebase:firebase-storage:20.1.0] C:\Users\Qosain\.gradle\caches\transforms-3\bc5e7bcc0164bfb44b7f4e2b535b637a\transformed\jetified-firebase-storage-20.1.0\AndroidManifest.xml:32:13-34:85
+146                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+146-->[com.google.firebase:firebase-storage:20.1.0] C:\Users\Qosain\.gradle\caches\transforms-3\bc5e7bcc0164bfb44b7f4e2b535b637a\transformed\jetified-firebase-storage-20.1.0\AndroidManifest.xml:33:17-107
+147                android:value="com.google.firebase.components.ComponentRegistrar" />
+147-->[com.google.firebase:firebase-storage:20.1.0] C:\Users\Qosain\.gradle\caches\transforms-3\bc5e7bcc0164bfb44b7f4e2b535b637a\transformed\jetified-firebase-storage-20.1.0\AndroidManifest.xml:34:17-82
+148            <meta-data
+148-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\Qosain\.gradle\caches\transforms-3\2c47cca1684158c76435ea240736c9f4\transformed\jetified-play-services-measurement-api-21.2.0\AndroidManifest.xml:31:13-33:85
+149                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+149-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\Qosain\.gradle\caches\transforms-3\2c47cca1684158c76435ea240736c9f4\transformed\jetified-play-services-measurement-api-21.2.0\AndroidManifest.xml:32:17-139
+150                android:value="com.google.firebase.components.ComponentRegistrar" />
+150-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\Qosain\.gradle\caches\transforms-3\2c47cca1684158c76435ea240736c9f4\transformed\jetified-play-services-measurement-api-21.2.0\AndroidManifest.xml:33:17-82
+151            <meta-data
+151-->[com.google.firebase:firebase-installations:17.1.0] C:\Users\Qosain\.gradle\caches\transforms-3\d7bf545c7b0467e6571aa2a0938b89e8\transformed\jetified-firebase-installations-17.1.0\AndroidManifest.xml:17:13-19:85
+152                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+152-->[com.google.firebase:firebase-installations:17.1.0] C:\Users\Qosain\.gradle\caches\transforms-3\d7bf545c7b0467e6571aa2a0938b89e8\transformed\jetified-firebase-installations-17.1.0\AndroidManifest.xml:18:17-127
+153                android:value="com.google.firebase.components.ComponentRegistrar" />
+153-->[com.google.firebase:firebase-installations:17.1.0] C:\Users\Qosain\.gradle\caches\transforms-3\d7bf545c7b0467e6571aa2a0938b89e8\transformed\jetified-firebase-installations-17.1.0\AndroidManifest.xml:19:17-82
+154        </service>
+155
+156        <provider
+156-->[:image_picker_android] C:\Users\Qosain\AndroidStudioProjects\doctor_care\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-18:20
+157            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+157-->[:image_picker_android] C:\Users\Qosain\AndroidStudioProjects\doctor_care\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-82
+158            android:authorities="com.example.doctor_app.flutter.image_provider"
+158-->[:image_picker_android] C:\Users\Qosain\AndroidStudioProjects\doctor_care\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-74
+159            android:exported="false"
+159-->[:image_picker_android] C:\Users\Qosain\AndroidStudioProjects\doctor_care\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-37
+160            android:grantUriPermissions="true" >
+160-->[:image_picker_android] C:\Users\Qosain\AndroidStudioProjects\doctor_care\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-47
+161            <meta-data
+161-->[:image_picker_android] C:\Users\Qosain\AndroidStudioProjects\doctor_care\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-17:75
+162                android:name="android.support.FILE_PROVIDER_PATHS"
+162-->[:image_picker_android] C:\Users\Qosain\AndroidStudioProjects\doctor_care\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:16:17-67
+163                android:resource="@xml/flutter_image_picker_file_paths" />
+163-->[:image_picker_android] C:\Users\Qosain\AndroidStudioProjects\doctor_care\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:17:17-72
+164        </provider>
+165
+166        <activity
+166-->[:flutter_inappwebview] C:\Users\Qosain\AndroidStudioProjects\doctor_care\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:16:9-20:47
+167            android:name="com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserActivity"
+167-->[:flutter_inappwebview] C:\Users\Qosain\AndroidStudioProjects\doctor_care\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-104
+168            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density"
+168-->[:flutter_inappwebview] C:\Users\Qosain\AndroidStudioProjects\doctor_care\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-137
+169            android:exported="false"
+169-->[:flutter_inappwebview] C:\Users\Qosain\AndroidStudioProjects\doctor_care\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-37
+170            android:theme="@style/AppTheme" />
+170-->[:flutter_inappwebview] C:\Users\Qosain\AndroidStudioProjects\doctor_care\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-44
+171        <activity
+171-->[:flutter_inappwebview] C:\Users\Qosain\AndroidStudioProjects\doctor_care\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:21:9-24:55
+172            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivity"
+172-->[:flutter_inappwebview] C:\Users\Qosain\AndroidStudioProjects\doctor_care\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-112
+173            android:exported="false"
+173-->[:flutter_inappwebview] C:\Users\Qosain\AndroidStudioProjects\doctor_care\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-37
+174            android:theme="@style/ThemeTransparent" />
+174-->[:flutter_inappwebview] C:\Users\Qosain\AndroidStudioProjects\doctor_care\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-52
+175        <activity
+175-->[:flutter_inappwebview] C:\Users\Qosain\AndroidStudioProjects\doctor_care\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:25:9-28:55
+176            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivity"
+176-->[:flutter_inappwebview] C:\Users\Qosain\AndroidStudioProjects\doctor_care\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:26:13-106
+177            android:exported="false"
+177-->[:flutter_inappwebview] C:\Users\Qosain\AndroidStudioProjects\doctor_care\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-37
+178            android:theme="@style/ThemeTransparent" />
+178-->[:flutter_inappwebview] C:\Users\Qosain\AndroidStudioProjects\doctor_care\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:28:13-52
+179        <activity
+179-->[:flutter_inappwebview] C:\Users\Qosain\AndroidStudioProjects\doctor_care\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:29:9-33:55
+180            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance"
+180-->[:flutter_inappwebview] C:\Users\Qosain\AndroidStudioProjects\doctor_care\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:30:13-126
+181            android:exported="false"
+181-->[:flutter_inappwebview] C:\Users\Qosain\AndroidStudioProjects\doctor_care\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:31:13-37
+182            android:launchMode="singleInstance"
+182-->[:flutter_inappwebview] C:\Users\Qosain\AndroidStudioProjects\doctor_care\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:32:13-48
+183            android:theme="@style/ThemeTransparent" />
+183-->[:flutter_inappwebview] C:\Users\Qosain\AndroidStudioProjects\doctor_care\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:33:13-52
+184        <activity
+184-->[:flutter_inappwebview] C:\Users\Qosain\AndroidStudioProjects\doctor_care\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:34:9-38:55
+185            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivitySingleInstance"
+185-->[:flutter_inappwebview] C:\Users\Qosain\AndroidStudioProjects\doctor_care\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:35:13-120
+186            android:exported="false"
+186-->[:flutter_inappwebview] C:\Users\Qosain\AndroidStudioProjects\doctor_care\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:36:13-37
+187            android:launchMode="singleInstance"
+187-->[:flutter_inappwebview] C:\Users\Qosain\AndroidStudioProjects\doctor_care\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:37:13-48
+188            android:theme="@style/ThemeTransparent" />
+188-->[:flutter_inappwebview] C:\Users\Qosain\AndroidStudioProjects\doctor_care\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:38:13-52
+189
+190        <receiver
+190-->[:flutter_inappwebview] C:\Users\Qosain\AndroidStudioProjects\doctor_care\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:40:9-43:40
+191            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver"
+191-->[:flutter_inappwebview] C:\Users\Qosain\AndroidStudioProjects\doctor_care\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:41:13-111
+192            android:enabled="true"
+192-->[:flutter_inappwebview] C:\Users\Qosain\AndroidStudioProjects\doctor_care\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:42:13-35
+193            android:exported="false" />
+193-->[:flutter_inappwebview] C:\Users\Qosain\AndroidStudioProjects\doctor_care\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:43:13-37
+194
+195        <meta-data
+195-->[:flutter_inappwebview] C:\Users\Qosain\AndroidStudioProjects\doctor_care\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:45:9-47:36
+196            android:name="io.flutter.embedded_views_preview"
+196-->[:flutter_inappwebview] C:\Users\Qosain\AndroidStudioProjects\doctor_care\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:46:13-61
+197            android:value="true" />
+197-->[:flutter_inappwebview] C:\Users\Qosain\AndroidStudioProjects\doctor_care\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:47:13-33
+198
+199        <activity
+199-->[com.stripe:paymentsheet:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\601d143e74508ecc32283084018495fb\transformed\jetified-paymentsheet-20.16.2\AndroidManifest.xml:10:9-13:69
+200            android:name="com.stripe.android.paymentsheet.PaymentSheetActivity"
+200-->[com.stripe:paymentsheet:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\601d143e74508ecc32283084018495fb\transformed\jetified-paymentsheet-20.16.2\AndroidManifest.xml:11:13-80
+201            android:exported="false"
+201-->[com.stripe:paymentsheet:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\601d143e74508ecc32283084018495fb\transformed\jetified-paymentsheet-20.16.2\AndroidManifest.xml:12:13-37
+202            android:theme="@style/StripePaymentSheetDefaultTheme" />
+202-->[com.stripe:paymentsheet:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\601d143e74508ecc32283084018495fb\transformed\jetified-paymentsheet-20.16.2\AndroidManifest.xml:13:13-66
+203        <activity
+203-->[com.stripe:paymentsheet:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\601d143e74508ecc32283084018495fb\transformed\jetified-paymentsheet-20.16.2\AndroidManifest.xml:14:9-17:69
+204            android:name="com.stripe.android.paymentsheet.PaymentOptionsActivity"
+204-->[com.stripe:paymentsheet:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\601d143e74508ecc32283084018495fb\transformed\jetified-paymentsheet-20.16.2\AndroidManifest.xml:15:13-82
+205            android:exported="false"
+205-->[com.stripe:paymentsheet:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\601d143e74508ecc32283084018495fb\transformed\jetified-paymentsheet-20.16.2\AndroidManifest.xml:16:13-37
+206            android:theme="@style/StripePaymentSheetDefaultTheme" />
+206-->[com.stripe:paymentsheet:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\601d143e74508ecc32283084018495fb\transformed\jetified-paymentsheet-20.16.2\AndroidManifest.xml:17:13-66
+207        <activity
+207-->[com.stripe:paymentsheet:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\601d143e74508ecc32283084018495fb\transformed\jetified-paymentsheet-20.16.2\AndroidManifest.xml:18:9-21:69
+208            android:name="com.stripe.android.paymentsheet.addresselement.AddressElementActivity"
+208-->[com.stripe:paymentsheet:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\601d143e74508ecc32283084018495fb\transformed\jetified-paymentsheet-20.16.2\AndroidManifest.xml:19:13-97
+209            android:exported="false"
+209-->[com.stripe:paymentsheet:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\601d143e74508ecc32283084018495fb\transformed\jetified-paymentsheet-20.16.2\AndroidManifest.xml:20:13-37
+210            android:theme="@style/StripePaymentSheetDefaultTheme" />
+210-->[com.stripe:paymentsheet:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\601d143e74508ecc32283084018495fb\transformed\jetified-paymentsheet-20.16.2\AndroidManifest.xml:21:13-66
+211        <activity
+211-->[com.stripe:paymentsheet:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\601d143e74508ecc32283084018495fb\transformed\jetified-paymentsheet-20.16.2\AndroidManifest.xml:22:9-25:69
+212            android:name="com.stripe.android.paymentsheet.paymentdatacollection.polling.PollingActivity"
+212-->[com.stripe:paymentsheet:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\601d143e74508ecc32283084018495fb\transformed\jetified-paymentsheet-20.16.2\AndroidManifest.xml:23:13-105
+213            android:exported="false"
+213-->[com.stripe:paymentsheet:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\601d143e74508ecc32283084018495fb\transformed\jetified-paymentsheet-20.16.2\AndroidManifest.xml:24:13-37
+214            android:theme="@style/StripePaymentSheetDefaultTheme" />
+214-->[com.stripe:paymentsheet:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\601d143e74508ecc32283084018495fb\transformed\jetified-paymentsheet-20.16.2\AndroidManifest.xml:25:13-66
+215        <activity
+215-->[com.stripe:link:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\b1c30de29243a226b47c8ff263ac9025\transformed\jetified-link-20.16.2\AndroidManifest.xml:10:9-15:58
+216            android:name="com.stripe.android.link.LinkActivity"
+216-->[com.stripe:link:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\b1c30de29243a226b47c8ff263ac9025\transformed\jetified-link-20.16.2\AndroidManifest.xml:11:13-64
+217            android:exported="false"
+217-->[com.stripe:link:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\b1c30de29243a226b47c8ff263ac9025\transformed\jetified-link-20.16.2\AndroidManifest.xml:12:13-37
+218            android:label="@string/link"
+218-->[com.stripe:link:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\b1c30de29243a226b47c8ff263ac9025\transformed\jetified-link-20.16.2\AndroidManifest.xml:13:13-41
+219            android:theme="@style/LinkBaseTheme"
+219-->[com.stripe:link:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\b1c30de29243a226b47c8ff263ac9025\transformed\jetified-link-20.16.2\AndroidManifest.xml:14:13-49
+220            android:windowSoftInputMode="adjustResize" />
+220-->[com.stripe:link:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\b1c30de29243a226b47c8ff263ac9025\transformed\jetified-link-20.16.2\AndroidManifest.xml:15:13-55
+221        <activity
+221-->[com.stripe:payments-ui-core:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\845716d0de9f375ab5dcd1bf57185d00\transformed\jetified-payments-ui-core-20.16.2\AndroidManifest.xml:10:9-13:69
+222            android:name="com.stripe.android.ui.core.cardscan.CardScanActivity"
+222-->[com.stripe:payments-ui-core:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\845716d0de9f375ab5dcd1bf57185d00\transformed\jetified-payments-ui-core-20.16.2\AndroidManifest.xml:11:13-80
+223            android:exported="false"
+223-->[com.stripe:payments-ui-core:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\845716d0de9f375ab5dcd1bf57185d00\transformed\jetified-payments-ui-core-20.16.2\AndroidManifest.xml:12:13-37
+224            android:theme="@style/StripePaymentSheetDefaultTheme" />
+224-->[com.stripe:payments-ui-core:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\845716d0de9f375ab5dcd1bf57185d00\transformed\jetified-payments-ui-core-20.16.2\AndroidManifest.xml:13:13-66
+225        <activity
+225-->[com.stripe:payments-core:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\a3d84d0568c55d63e727e9486cde31f2\transformed\jetified-payments-core-20.16.2\AndroidManifest.xml:17:9-20:57
+226            android:name="com.stripe.android.view.AddPaymentMethodActivity"
+226-->[com.stripe:payments-core:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\a3d84d0568c55d63e727e9486cde31f2\transformed\jetified-payments-core-20.16.2\AndroidManifest.xml:18:13-76
+227            android:exported="false"
+227-->[com.stripe:payments-core:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\a3d84d0568c55d63e727e9486cde31f2\transformed\jetified-payments-core-20.16.2\AndroidManifest.xml:19:13-37
+228            android:theme="@style/StripeDefaultTheme" />
+228-->[com.stripe:payments-core:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\a3d84d0568c55d63e727e9486cde31f2\transformed\jetified-payments-core-20.16.2\AndroidManifest.xml:20:13-54
+229        <activity
+229-->[com.stripe:payments-core:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\a3d84d0568c55d63e727e9486cde31f2\transformed\jetified-payments-core-20.16.2\AndroidManifest.xml:21:9-24:57
+230            android:name="com.stripe.android.view.PaymentMethodsActivity"
+230-->[com.stripe:payments-core:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\a3d84d0568c55d63e727e9486cde31f2\transformed\jetified-payments-core-20.16.2\AndroidManifest.xml:22:13-74
+231            android:exported="false"
+231-->[com.stripe:payments-core:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\a3d84d0568c55d63e727e9486cde31f2\transformed\jetified-payments-core-20.16.2\AndroidManifest.xml:23:13-37
+232            android:theme="@style/StripeDefaultTheme" />
+232-->[com.stripe:payments-core:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\a3d84d0568c55d63e727e9486cde31f2\transformed\jetified-payments-core-20.16.2\AndroidManifest.xml:24:13-54
+233        <activity
+233-->[com.stripe:payments-core:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\a3d84d0568c55d63e727e9486cde31f2\transformed\jetified-payments-core-20.16.2\AndroidManifest.xml:25:9-28:57
+234            android:name="com.stripe.android.view.PaymentFlowActivity"
+234-->[com.stripe:payments-core:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\a3d84d0568c55d63e727e9486cde31f2\transformed\jetified-payments-core-20.16.2\AndroidManifest.xml:26:13-71
+235            android:exported="false"
+235-->[com.stripe:payments-core:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\a3d84d0568c55d63e727e9486cde31f2\transformed\jetified-payments-core-20.16.2\AndroidManifest.xml:27:13-37
+236            android:theme="@style/StripeDefaultTheme" />
+236-->[com.stripe:payments-core:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\a3d84d0568c55d63e727e9486cde31f2\transformed\jetified-payments-core-20.16.2\AndroidManifest.xml:28:13-54
+237        <activity
+237-->[com.stripe:payments-core:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\a3d84d0568c55d63e727e9486cde31f2\transformed\jetified-payments-core-20.16.2\AndroidManifest.xml:29:9-33:58
+238            android:name="com.stripe.android.view.PaymentAuthWebViewActivity"
+238-->[com.stripe:payments-core:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\a3d84d0568c55d63e727e9486cde31f2\transformed\jetified-payments-core-20.16.2\AndroidManifest.xml:30:13-78
+239            android:exported="false"
+239-->[com.stripe:payments-core:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\a3d84d0568c55d63e727e9486cde31f2\transformed\jetified-payments-core-20.16.2\AndroidManifest.xml:31:13-37
+240            android:theme="@style/StripeDefaultTheme"
+240-->[com.stripe:payments-core:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\a3d84d0568c55d63e727e9486cde31f2\transformed\jetified-payments-core-20.16.2\AndroidManifest.xml:32:13-54
+241            android:windowSoftInputMode="adjustResize" />
+241-->[com.stripe:payments-core:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\a3d84d0568c55d63e727e9486cde31f2\transformed\jetified-payments-core-20.16.2\AndroidManifest.xml:33:13-55
+242        <activity
+242-->[com.stripe:payments-core:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\a3d84d0568c55d63e727e9486cde31f2\transformed\jetified-payments-core-20.16.2\AndroidManifest.xml:34:9-37:61
+243            android:name="com.stripe.android.view.PaymentRelayActivity"
+243-->[com.stripe:payments-core:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\a3d84d0568c55d63e727e9486cde31f2\transformed\jetified-payments-core-20.16.2\AndroidManifest.xml:35:13-72
+244            android:exported="false"
+244-->[com.stripe:payments-core:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\a3d84d0568c55d63e727e9486cde31f2\transformed\jetified-payments-core-20.16.2\AndroidManifest.xml:36:13-37
+245            android:theme="@style/StripeTransparentTheme" />
+245-->[com.stripe:payments-core:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\a3d84d0568c55d63e727e9486cde31f2\transformed\jetified-payments-core-20.16.2\AndroidManifest.xml:37:13-58
+246        <!--
+247        Set android:launchMode="singleTop" so that the StripeBrowserLauncherActivity instance that
+248        launched the browser Activity will also handle the return URL deep link.
+249        -->
+250        <activity
+250-->[com.stripe:payments-core:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\a3d84d0568c55d63e727e9486cde31f2\transformed\jetified-payments-core-20.16.2\AndroidManifest.xml:43:9-47:61
+251            android:name="com.stripe.android.payments.StripeBrowserLauncherActivity"
+251-->[com.stripe:payments-core:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\a3d84d0568c55d63e727e9486cde31f2\transformed\jetified-payments-core-20.16.2\AndroidManifest.xml:44:13-85
+252            android:exported="false"
+252-->[com.stripe:payments-core:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\a3d84d0568c55d63e727e9486cde31f2\transformed\jetified-payments-core-20.16.2\AndroidManifest.xml:45:13-37
+253            android:launchMode="singleTask"
+253-->[com.stripe:payments-core:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\a3d84d0568c55d63e727e9486cde31f2\transformed\jetified-payments-core-20.16.2\AndroidManifest.xml:46:13-44
+254            android:theme="@style/StripeTransparentTheme" />
+254-->[com.stripe:payments-core:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\a3d84d0568c55d63e727e9486cde31f2\transformed\jetified-payments-core-20.16.2\AndroidManifest.xml:47:13-58
+255        <activity
+255-->[com.stripe:payments-core:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\a3d84d0568c55d63e727e9486cde31f2\transformed\jetified-payments-core-20.16.2\AndroidManifest.xml:48:9-65:20
+256            android:name="com.stripe.android.payments.StripeBrowserProxyReturnActivity"
+256-->[com.stripe:payments-core:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\a3d84d0568c55d63e727e9486cde31f2\transformed\jetified-payments-core-20.16.2\AndroidManifest.xml:49:13-88
+257            android:exported="true"
+257-->[com.stripe:payments-core:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\a3d84d0568c55d63e727e9486cde31f2\transformed\jetified-payments-core-20.16.2\AndroidManifest.xml:50:13-36
+258            android:launchMode="singleTask"
+258-->[com.stripe:payments-core:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\a3d84d0568c55d63e727e9486cde31f2\transformed\jetified-payments-core-20.16.2\AndroidManifest.xml:51:13-44
+259            android:theme="@style/StripeTransparentTheme" >
+259-->[com.stripe:payments-core:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\a3d84d0568c55d63e727e9486cde31f2\transformed\jetified-payments-core-20.16.2\AndroidManifest.xml:52:13-58
+260            <intent-filter>
+260-->[com.stripe:payments-core:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\a3d84d0568c55d63e727e9486cde31f2\transformed\jetified-payments-core-20.16.2\AndroidManifest.xml:53:13-64:29
+261                <action android:name="android.intent.action.VIEW" />
+261-->[com.stripe:payments-core:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\a3d84d0568c55d63e727e9486cde31f2\transformed\jetified-payments-core-20.16.2\AndroidManifest.xml:54:17-69
+261-->[com.stripe:payments-core:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\a3d84d0568c55d63e727e9486cde31f2\transformed\jetified-payments-core-20.16.2\AndroidManifest.xml:54:25-66
+262
+263                <category android:name="android.intent.category.DEFAULT" />
+263-->[com.stripe:payments-core:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\a3d84d0568c55d63e727e9486cde31f2\transformed\jetified-payments-core-20.16.2\AndroidManifest.xml:56:17-76
+263-->[com.stripe:payments-core:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\a3d84d0568c55d63e727e9486cde31f2\transformed\jetified-payments-core-20.16.2\AndroidManifest.xml:56:27-73
+264                <category android:name="android.intent.category.BROWSABLE" />
+264-->[com.stripe:payments-core:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\a3d84d0568c55d63e727e9486cde31f2\transformed\jetified-payments-core-20.16.2\AndroidManifest.xml:57:17-78
+264-->[com.stripe:payments-core:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\a3d84d0568c55d63e727e9486cde31f2\transformed\jetified-payments-core-20.16.2\AndroidManifest.xml:57:27-75
+265
+266                <!-- Must match `DefaultReturnUrl#value`. -->
+267                <data
+267-->[:file_picker] C:\Users\Qosain\AndroidStudioProjects\doctor_care\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-44
+268                    android:host="payment_return_url"
+269                    android:path="/com.example.doctor_app"
+270                    android:scheme="stripesdk" />
+271            </intent-filter>
+272        </activity>
+273        <activity
+273-->[com.stripe:payments-core:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\a3d84d0568c55d63e727e9486cde31f2\transformed\jetified-payments-core-20.16.2\AndroidManifest.xml:66:9-69:57
+274            android:name="com.stripe.android.payments.core.authentication.threeds2.Stripe3ds2TransactionActivity"
+274-->[com.stripe:payments-core:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\a3d84d0568c55d63e727e9486cde31f2\transformed\jetified-payments-core-20.16.2\AndroidManifest.xml:67:13-114
+275            android:exported="false"
+275-->[com.stripe:payments-core:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\a3d84d0568c55d63e727e9486cde31f2\transformed\jetified-payments-core-20.16.2\AndroidManifest.xml:68:13-37
+276            android:theme="@style/StripeDefaultTheme" />
+276-->[com.stripe:payments-core:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\a3d84d0568c55d63e727e9486cde31f2\transformed\jetified-payments-core-20.16.2\AndroidManifest.xml:69:13-54
+277        <activity
+277-->[com.stripe:payments-core:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\a3d84d0568c55d63e727e9486cde31f2\transformed\jetified-payments-core-20.16.2\AndroidManifest.xml:70:9-73:66
+278            android:name="com.stripe.android.googlepaylauncher.StripeGooglePayActivity"
+278-->[com.stripe:payments-core:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\a3d84d0568c55d63e727e9486cde31f2\transformed\jetified-payments-core-20.16.2\AndroidManifest.xml:71:13-88
+279            android:exported="false"
+279-->[com.stripe:payments-core:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\a3d84d0568c55d63e727e9486cde31f2\transformed\jetified-payments-core-20.16.2\AndroidManifest.xml:72:13-37
+280            android:theme="@style/StripeGooglePayDefaultTheme" />
+280-->[com.stripe:payments-core:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\a3d84d0568c55d63e727e9486cde31f2\transformed\jetified-payments-core-20.16.2\AndroidManifest.xml:73:13-63
+281        <activity
+281-->[com.stripe:payments-core:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\a3d84d0568c55d63e727e9486cde31f2\transformed\jetified-payments-core-20.16.2\AndroidManifest.xml:74:9-77:66
+282            android:name="com.stripe.android.googlepaylauncher.GooglePayLauncherActivity"
+282-->[com.stripe:payments-core:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\a3d84d0568c55d63e727e9486cde31f2\transformed\jetified-payments-core-20.16.2\AndroidManifest.xml:75:13-90
+283            android:exported="false"
+283-->[com.stripe:payments-core:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\a3d84d0568c55d63e727e9486cde31f2\transformed\jetified-payments-core-20.16.2\AndroidManifest.xml:76:13-37
+284            android:theme="@style/StripeGooglePayDefaultTheme" />
+284-->[com.stripe:payments-core:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\a3d84d0568c55d63e727e9486cde31f2\transformed\jetified-payments-core-20.16.2\AndroidManifest.xml:77:13-63
+285        <activity
+285-->[com.stripe:payments-core:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\a3d84d0568c55d63e727e9486cde31f2\transformed\jetified-payments-core-20.16.2\AndroidManifest.xml:78:9-81:66
+286            android:name="com.stripe.android.googlepaylauncher.GooglePayPaymentMethodLauncherActivity"
+286-->[com.stripe:payments-core:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\a3d84d0568c55d63e727e9486cde31f2\transformed\jetified-payments-core-20.16.2\AndroidManifest.xml:79:13-103
+287            android:exported="false"
+287-->[com.stripe:payments-core:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\a3d84d0568c55d63e727e9486cde31f2\transformed\jetified-payments-core-20.16.2\AndroidManifest.xml:80:13-37
+288            android:theme="@style/StripeGooglePayDefaultTheme" />
+288-->[com.stripe:payments-core:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\a3d84d0568c55d63e727e9486cde31f2\transformed\jetified-payments-core-20.16.2\AndroidManifest.xml:81:13-63
+289        <activity
+289-->[com.stripe:payments-core:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\a3d84d0568c55d63e727e9486cde31f2\transformed\jetified-payments-core-20.16.2\AndroidManifest.xml:82:9-85:62
+290            android:name="com.stripe.android.payments.paymentlauncher.PaymentLauncherConfirmationActivity"
+290-->[com.stripe:payments-core:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\a3d84d0568c55d63e727e9486cde31f2\transformed\jetified-payments-core-20.16.2\AndroidManifest.xml:83:13-107
+291            android:exported="false"
+291-->[com.stripe:payments-core:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\a3d84d0568c55d63e727e9486cde31f2\transformed\jetified-payments-core-20.16.2\AndroidManifest.xml:84:13-37
+292            android:theme="@style/PayLauncherDefaultTheme" />
+292-->[com.stripe:payments-core:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\a3d84d0568c55d63e727e9486cde31f2\transformed\jetified-payments-core-20.16.2\AndroidManifest.xml:85:13-59
+293        <activity
+293-->[com.stripe:payments-core:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\a3d84d0568c55d63e727e9486cde31f2\transformed\jetified-payments-core-20.16.2\AndroidManifest.xml:86:9-89:61
+294            android:name="com.stripe.android.payments.bankaccount.ui.CollectBankAccountActivity"
+294-->[com.stripe:payments-core:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\a3d84d0568c55d63e727e9486cde31f2\transformed\jetified-payments-core-20.16.2\AndroidManifest.xml:87:13-97
+295            android:exported="false"
+295-->[com.stripe:payments-core:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\a3d84d0568c55d63e727e9486cde31f2\transformed\jetified-payments-core-20.16.2\AndroidManifest.xml:88:13-37
+296            android:theme="@style/StripeTransparentTheme" />
+296-->[com.stripe:payments-core:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\a3d84d0568c55d63e727e9486cde31f2\transformed\jetified-payments-core-20.16.2\AndroidManifest.xml:89:13-58
+297        <activity
+297-->[com.stripe:stripe-3ds2-android:6.1.5] C:\Users\Qosain\.gradle\caches\transforms-3\9970b3577681fec0cc60260ecb7992d8\transformed\jetified-stripe-3ds2-android-6.1.5\AndroidManifest.xml:10:9-13:54
+298            android:name="com.stripe.android.stripe3ds2.views.ChallengeActivity"
+298-->[com.stripe:stripe-3ds2-android:6.1.5] C:\Users\Qosain\.gradle\caches\transforms-3\9970b3577681fec0cc60260ecb7992d8\transformed\jetified-stripe-3ds2-android-6.1.5\AndroidManifest.xml:11:13-81
+299            android:exported="false"
+299-->[com.stripe:stripe-3ds2-android:6.1.5] C:\Users\Qosain\.gradle\caches\transforms-3\9970b3577681fec0cc60260ecb7992d8\transformed\jetified-stripe-3ds2-android-6.1.5\AndroidManifest.xml:12:13-37
+300            android:theme="@style/Stripe3DS2Theme" />
+300-->[com.stripe:stripe-3ds2-android:6.1.5] C:\Users\Qosain\.gradle\caches\transforms-3\9970b3577681fec0cc60260ecb7992d8\transformed\jetified-stripe-3ds2-android-6.1.5\AndroidManifest.xml:13:13-51
+301        <activity
+301-->[com.stripe:financial-connections:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\782c714d120dbe6e194c7f4d9de5f2d7\transformed\jetified-financial-connections-20.16.2\AndroidManifest.xml:23:9-48:20
+302            android:name="com.stripe.android.financialconnections.FinancialConnectionsSheetRedirectActivity"
+302-->[com.stripe:financial-connections:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\782c714d120dbe6e194c7f4d9de5f2d7\transformed\jetified-financial-connections-20.16.2\AndroidManifest.xml:24:13-109
+303            android:exported="true" >
+303-->[com.stripe:financial-connections:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\782c714d120dbe6e194c7f4d9de5f2d7\transformed\jetified-financial-connections-20.16.2\AndroidManifest.xml:25:13-36
+304            <intent-filter>
+304-->[com.stripe:financial-connections:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\782c714d120dbe6e194c7f4d9de5f2d7\transformed\jetified-financial-connections-20.16.2\AndroidManifest.xml:26:13-47:29
+305                <action android:name="android.intent.action.VIEW" />
+305-->[com.stripe:payments-core:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\a3d84d0568c55d63e727e9486cde31f2\transformed\jetified-payments-core-20.16.2\AndroidManifest.xml:54:17-69
+305-->[com.stripe:payments-core:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\a3d84d0568c55d63e727e9486cde31f2\transformed\jetified-payments-core-20.16.2\AndroidManifest.xml:54:25-66
+306
+307                <category android:name="android.intent.category.DEFAULT" />
+307-->[com.stripe:payments-core:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\a3d84d0568c55d63e727e9486cde31f2\transformed\jetified-payments-core-20.16.2\AndroidManifest.xml:56:17-76
+307-->[com.stripe:payments-core:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\a3d84d0568c55d63e727e9486cde31f2\transformed\jetified-payments-core-20.16.2\AndroidManifest.xml:56:27-73
+308                <category android:name="android.intent.category.BROWSABLE" />
+308-->[com.stripe:payments-core:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\a3d84d0568c55d63e727e9486cde31f2\transformed\jetified-payments-core-20.16.2\AndroidManifest.xml:57:17-78
+308-->[com.stripe:payments-core:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\a3d84d0568c55d63e727e9486cde31f2\transformed\jetified-payments-core-20.16.2\AndroidManifest.xml:57:27-75
+309
+310                <!-- Accepts success and cancel URIs that begin with "stripe-auth://link-accounts” -->
+311                <data
+311-->[:file_picker] C:\Users\Qosain\AndroidStudioProjects\doctor_care\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-44
+312                    android:host="link-accounts"
+313                    android:path="/com.example.doctor_app/success"
+314                    android:scheme="stripe-auth" />
+315                <data
+315-->[:file_picker] C:\Users\Qosain\AndroidStudioProjects\doctor_care\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-44
+316                    android:host="link-accounts"
+317                    android:path="/com.example.doctor_app/cancel"
+318                    android:scheme="stripe-auth" />
+319
+320                <!-- Accepts success/cancel/fail URIs that begin with "stripe-auth://auth-redirect” -->
+321                <data
+321-->[:file_picker] C:\Users\Qosain\AndroidStudioProjects\doctor_care\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-44
+322                    android:host="auth-redirect"
+323                    android:pathPrefix="/com.example.doctor_app"
+324                    android:scheme="stripe" />
+325            </intent-filter>
+326        </activity>
+327        <activity
+327-->[com.stripe:financial-connections:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\782c714d120dbe6e194c7f4d9de5f2d7\transformed\jetified-financial-connections-20.16.2\AndroidManifest.xml:49:9-52:57
+328            android:name="com.stripe.android.financialconnections.FinancialConnectionsSheetActivity"
+328-->[com.stripe:financial-connections:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\782c714d120dbe6e194c7f4d9de5f2d7\transformed\jetified-financial-connections-20.16.2\AndroidManifest.xml:50:13-101
+329            android:exported="false"
+329-->[com.stripe:financial-connections:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\782c714d120dbe6e194c7f4d9de5f2d7\transformed\jetified-financial-connections-20.16.2\AndroidManifest.xml:51:13-37
+330            android:theme="@style/StripeDefaultTheme" />
+330-->[com.stripe:financial-connections:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\782c714d120dbe6e194c7f4d9de5f2d7\transformed\jetified-financial-connections-20.16.2\AndroidManifest.xml:52:13-54
+331        <activity
+331-->[com.stripe:financial-connections:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\782c714d120dbe6e194c7f4d9de5f2d7\transformed\jetified-financial-connections-20.16.2\AndroidManifest.xml:53:9-57:58
+332            android:name="com.stripe.android.financialconnections.ui.FinancialConnectionsSheetNativeActivity"
+332-->[com.stripe:financial-connections:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\782c714d120dbe6e194c7f4d9de5f2d7\transformed\jetified-financial-connections-20.16.2\AndroidManifest.xml:54:13-110
+333            android:exported="false"
+333-->[com.stripe:financial-connections:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\782c714d120dbe6e194c7f4d9de5f2d7\transformed\jetified-financial-connections-20.16.2\AndroidManifest.xml:55:13-37
+334            android:theme="@style/StripeDefaultTheme"
+334-->[com.stripe:financial-connections:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\782c714d120dbe6e194c7f4d9de5f2d7\transformed\jetified-financial-connections-20.16.2\AndroidManifest.xml:56:13-54
+335            android:windowSoftInputMode="adjustResize" />
+335-->[com.stripe:financial-connections:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\782c714d120dbe6e194c7f4d9de5f2d7\transformed\jetified-financial-connections-20.16.2\AndroidManifest.xml:57:13-55
+336
+337        <provider
+337-->[com.stripe:financial-connections:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\782c714d120dbe6e194c7f4d9de5f2d7\transformed\jetified-financial-connections-20.16.2\AndroidManifest.xml:59:9-63:43
+338            android:name="com.stripe.android.financialconnections.appinitializer.FinancialConnectionsInitializer"
+338-->[com.stripe:financial-connections:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\782c714d120dbe6e194c7f4d9de5f2d7\transformed\jetified-financial-connections-20.16.2\AndroidManifest.xml:60:13-114
+339            android:authorities="com.example.doctor_app.financialconnections-init"
+339-->[com.stripe:financial-connections:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\782c714d120dbe6e194c7f4d9de5f2d7\transformed\jetified-financial-connections-20.16.2\AndroidManifest.xml:61:13-77
+340            android:exported="false"
+340-->[com.stripe:financial-connections:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\782c714d120dbe6e194c7f4d9de5f2d7\transformed\jetified-financial-connections-20.16.2\AndroidManifest.xml:62:13-37
+341            android:multiprocess="true" />
+341-->[com.stripe:financial-connections:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\782c714d120dbe6e194c7f4d9de5f2d7\transformed\jetified-financial-connections-20.16.2\AndroidManifest.xml:63:13-40
+342
+343        <activity
+343-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Qosain\.gradle\caches\transforms-3\daf6aeb49ab64c37bf861602c6087e6c\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:27:9-44:20
+344            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+344-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Qosain\.gradle\caches\transforms-3\daf6aeb49ab64c37bf861602c6087e6c\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:28:13-80
+345            android:excludeFromRecents="true"
+345-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Qosain\.gradle\caches\transforms-3\daf6aeb49ab64c37bf861602c6087e6c\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:29:13-46
+346            android:exported="true"
+346-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Qosain\.gradle\caches\transforms-3\daf6aeb49ab64c37bf861602c6087e6c\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:30:13-36
+347            android:launchMode="singleTask"
+347-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Qosain\.gradle\caches\transforms-3\daf6aeb49ab64c37bf861602c6087e6c\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:31:13-44
+348            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+348-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Qosain\.gradle\caches\transforms-3\daf6aeb49ab64c37bf861602c6087e6c\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:32:13-72
+349            <intent-filter>
+349-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Qosain\.gradle\caches\transforms-3\daf6aeb49ab64c37bf861602c6087e6c\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:33:13-43:29
+350                <action android:name="android.intent.action.VIEW" />
+350-->[com.stripe:payments-core:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\a3d84d0568c55d63e727e9486cde31f2\transformed\jetified-payments-core-20.16.2\AndroidManifest.xml:54:17-69
+350-->[com.stripe:payments-core:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\a3d84d0568c55d63e727e9486cde31f2\transformed\jetified-payments-core-20.16.2\AndroidManifest.xml:54:25-66
+351
+352                <category android:name="android.intent.category.DEFAULT" />
+352-->[com.stripe:payments-core:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\a3d84d0568c55d63e727e9486cde31f2\transformed\jetified-payments-core-20.16.2\AndroidManifest.xml:56:17-76
+352-->[com.stripe:payments-core:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\a3d84d0568c55d63e727e9486cde31f2\transformed\jetified-payments-core-20.16.2\AndroidManifest.xml:56:27-73
+353                <category android:name="android.intent.category.BROWSABLE" />
+353-->[com.stripe:payments-core:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\a3d84d0568c55d63e727e9486cde31f2\transformed\jetified-payments-core-20.16.2\AndroidManifest.xml:57:17-78
+353-->[com.stripe:payments-core:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\a3d84d0568c55d63e727e9486cde31f2\transformed\jetified-payments-core-20.16.2\AndroidManifest.xml:57:27-75
+354
+355                <data
+355-->[:file_picker] C:\Users\Qosain\AndroidStudioProjects\doctor_care\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-44
+356                    android:host="firebase.auth"
+357                    android:path="/"
+358                    android:scheme="genericidp" />
+359            </intent-filter>
+360        </activity>
+361        <activity
+361-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Qosain\.gradle\caches\transforms-3\daf6aeb49ab64c37bf861602c6087e6c\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:45:9-62:20
+362            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+362-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Qosain\.gradle\caches\transforms-3\daf6aeb49ab64c37bf861602c6087e6c\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:46:13-79
+363            android:excludeFromRecents="true"
+363-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Qosain\.gradle\caches\transforms-3\daf6aeb49ab64c37bf861602c6087e6c\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:47:13-46
+364            android:exported="true"
+364-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Qosain\.gradle\caches\transforms-3\daf6aeb49ab64c37bf861602c6087e6c\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:48:13-36
+365            android:launchMode="singleTask"
+365-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Qosain\.gradle\caches\transforms-3\daf6aeb49ab64c37bf861602c6087e6c\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:49:13-44
+366            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+366-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Qosain\.gradle\caches\transforms-3\daf6aeb49ab64c37bf861602c6087e6c\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:50:13-72
+367            <intent-filter>
+367-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Qosain\.gradle\caches\transforms-3\daf6aeb49ab64c37bf861602c6087e6c\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:51:13-61:29
+368                <action android:name="android.intent.action.VIEW" />
+368-->[com.stripe:payments-core:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\a3d84d0568c55d63e727e9486cde31f2\transformed\jetified-payments-core-20.16.2\AndroidManifest.xml:54:17-69
+368-->[com.stripe:payments-core:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\a3d84d0568c55d63e727e9486cde31f2\transformed\jetified-payments-core-20.16.2\AndroidManifest.xml:54:25-66
+369
+370                <category android:name="android.intent.category.DEFAULT" />
+370-->[com.stripe:payments-core:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\a3d84d0568c55d63e727e9486cde31f2\transformed\jetified-payments-core-20.16.2\AndroidManifest.xml:56:17-76
+370-->[com.stripe:payments-core:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\a3d84d0568c55d63e727e9486cde31f2\transformed\jetified-payments-core-20.16.2\AndroidManifest.xml:56:27-73
+371                <category android:name="android.intent.category.BROWSABLE" />
+371-->[com.stripe:payments-core:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\a3d84d0568c55d63e727e9486cde31f2\transformed\jetified-payments-core-20.16.2\AndroidManifest.xml:57:17-78
+371-->[com.stripe:payments-core:20.16.2] C:\Users\Qosain\.gradle\caches\transforms-3\a3d84d0568c55d63e727e9486cde31f2\transformed\jetified-payments-core-20.16.2\AndroidManifest.xml:57:27-75
+372
+373                <data
+373-->[:file_picker] C:\Users\Qosain\AndroidStudioProjects\doctor_care\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-44
+374                    android:host="firebase.auth"
+375                    android:path="/"
+376                    android:scheme="recaptcha" />
+377            </intent-filter>
+378        </activity>
+379
+380        <provider
+380-->[com.google.firebase:firebase-common:20.3.0] C:\Users\Qosain\.gradle\caches\transforms-3\04d79134ce7d293d97022730489f1687\transformed\jetified-firebase-common-20.3.0\AndroidManifest.xml:25:9-30:39
+381            android:name="com.google.firebase.provider.FirebaseInitProvider"
+381-->[com.google.firebase:firebase-common:20.3.0] C:\Users\Qosain\.gradle\caches\transforms-3\04d79134ce7d293d97022730489f1687\transformed\jetified-firebase-common-20.3.0\AndroidManifest.xml:26:13-77
+382            android:authorities="com.example.doctor_app.firebaseinitprovider"
+382-->[com.google.firebase:firebase-common:20.3.0] C:\Users\Qosain\.gradle\caches\transforms-3\04d79134ce7d293d97022730489f1687\transformed\jetified-firebase-common-20.3.0\AndroidManifest.xml:27:13-72
+383            android:directBootAware="true"
+383-->[com.google.firebase:firebase-common:20.3.0] C:\Users\Qosain\.gradle\caches\transforms-3\04d79134ce7d293d97022730489f1687\transformed\jetified-firebase-common-20.3.0\AndroidManifest.xml:28:13-43
+384            android:exported="false"
+384-->[com.google.firebase:firebase-common:20.3.0] C:\Users\Qosain\.gradle\caches\transforms-3\04d79134ce7d293d97022730489f1687\transformed\jetified-firebase-common-20.3.0\AndroidManifest.xml:29:13-37
+385            android:initOrder="100" />
+385-->[com.google.firebase:firebase-common:20.3.0] C:\Users\Qosain\.gradle\caches\transforms-3\04d79134ce7d293d97022730489f1687\transformed\jetified-firebase-common-20.3.0\AndroidManifest.xml:30:13-36
+386
+387        <receiver
+387-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Qosain\.gradle\caches\transforms-3\b93be6e0a145c81fe84f0b5d50b03f34\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:29:9-33:20
+388            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+388-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Qosain\.gradle\caches\transforms-3\b93be6e0a145c81fe84f0b5d50b03f34\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:30:13-85
+389            android:enabled="true"
+389-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Qosain\.gradle\caches\transforms-3\b93be6e0a145c81fe84f0b5d50b03f34\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:31:13-35
+390            android:exported="false" >
+390-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Qosain\.gradle\caches\transforms-3\b93be6e0a145c81fe84f0b5d50b03f34\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:32:13-37
+391        </receiver>
+392
+393        <service
+393-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Qosain\.gradle\caches\transforms-3\b93be6e0a145c81fe84f0b5d50b03f34\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:35:9-38:40
+394            android:name="com.google.android.gms.measurement.AppMeasurementService"
+394-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Qosain\.gradle\caches\transforms-3\b93be6e0a145c81fe84f0b5d50b03f34\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:36:13-84
+395            android:enabled="true"
+395-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Qosain\.gradle\caches\transforms-3\b93be6e0a145c81fe84f0b5d50b03f34\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:37:13-35
+396            android:exported="false" />
+396-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Qosain\.gradle\caches\transforms-3\b93be6e0a145c81fe84f0b5d50b03f34\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:38:13-37
+397        <service
+397-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Qosain\.gradle\caches\transforms-3\b93be6e0a145c81fe84f0b5d50b03f34\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:39:9-43:72
+398            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+398-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Qosain\.gradle\caches\transforms-3\b93be6e0a145c81fe84f0b5d50b03f34\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:40:13-87
+399            android:enabled="true"
+399-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Qosain\.gradle\caches\transforms-3\b93be6e0a145c81fe84f0b5d50b03f34\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:41:13-35
+400            android:exported="false"
+400-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Qosain\.gradle\caches\transforms-3\b93be6e0a145c81fe84f0b5d50b03f34\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:42:13-37
+401            android:permission="android.permission.BIND_JOB_SERVICE" /> <!-- Needs to be explicitly declared on P+ -->
+401-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Qosain\.gradle\caches\transforms-3\b93be6e0a145c81fe84f0b5d50b03f34\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:43:13-69
+402        <uses-library
+402-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Qosain\.gradle\caches\transforms-3\47c055c3e4d056e3ef185667414920a1\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:39:9-41:40
+403            android:name="org.apache.http.legacy"
+403-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Qosain\.gradle\caches\transforms-3\47c055c3e4d056e3ef185667414920a1\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:40:13-50
+404            android:required="false" />
+404-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Qosain\.gradle\caches\transforms-3\47c055c3e4d056e3ef185667414920a1\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:41:13-37
+405
+406        <activity
+406-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Qosain\.gradle\caches\transforms-3\06ad17311afcdd9e26e21c746d543bd7\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+407            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+407-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Qosain\.gradle\caches\transforms-3\06ad17311afcdd9e26e21c746d543bd7\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+408            android:exported="false"
+408-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Qosain\.gradle\caches\transforms-3\06ad17311afcdd9e26e21c746d543bd7\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+409            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+409-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Qosain\.gradle\caches\transforms-3\06ad17311afcdd9e26e21c746d543bd7\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+410
+411        <meta-data
+411-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Qosain\.gradle\caches\transforms-3\f7a531f44d41299454dbf6e1a18e343e\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+412            android:name="com.google.android.gms.version"
+412-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Qosain\.gradle\caches\transforms-3\f7a531f44d41299454dbf6e1a18e343e\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+413            android:value="@integer/google_play_services_version" />
+413-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Qosain\.gradle\caches\transforms-3\f7a531f44d41299454dbf6e1a18e343e\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+414
+415        <uses-library
+415-->[androidx.window:window:1.0.0-beta04] C:\Users\Qosain\.gradle\caches\transforms-3\ff0da3411c60a355fb11f5678a36b245\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+416            android:name="androidx.window.extensions"
+416-->[androidx.window:window:1.0.0-beta04] C:\Users\Qosain\.gradle\caches\transforms-3\ff0da3411c60a355fb11f5678a36b245\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+417            android:required="false" />
+417-->[androidx.window:window:1.0.0-beta04] C:\Users\Qosain\.gradle\caches\transforms-3\ff0da3411c60a355fb11f5678a36b245\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+418        <uses-library
+418-->[androidx.window:window:1.0.0-beta04] C:\Users\Qosain\.gradle\caches\transforms-3\ff0da3411c60a355fb11f5678a36b245\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+419            android:name="androidx.window.sidecar"
+419-->[androidx.window:window:1.0.0-beta04] C:\Users\Qosain\.gradle\caches\transforms-3\ff0da3411c60a355fb11f5678a36b245\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+420            android:required="false" />
+420-->[androidx.window:window:1.0.0-beta04] C:\Users\Qosain\.gradle\caches\transforms-3\ff0da3411c60a355fb11f5678a36b245\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+421
+422        <provider
+422-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Qosain\.gradle\caches\transforms-3\180908bec1ba182f9fa5dfb8c6496065\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+423            android:name="androidx.startup.InitializationProvider"
+423-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Qosain\.gradle\caches\transforms-3\180908bec1ba182f9fa5dfb8c6496065\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+424            android:authorities="com.example.doctor_app.androidx-startup"
+424-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Qosain\.gradle\caches\transforms-3\180908bec1ba182f9fa5dfb8c6496065\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+425            android:exported="false" >
+425-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Qosain\.gradle\caches\transforms-3\180908bec1ba182f9fa5dfb8c6496065\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+426            <meta-data
+426-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Qosain\.gradle\caches\transforms-3\180908bec1ba182f9fa5dfb8c6496065\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+427                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+427-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Qosain\.gradle\caches\transforms-3\180908bec1ba182f9fa5dfb8c6496065\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+428                android:value="androidx.startup" />
+428-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Qosain\.gradle\caches\transforms-3\180908bec1ba182f9fa5dfb8c6496065\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+429            <meta-data
+429-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Qosain\.gradle\caches\transforms-3\128a635510f3364296d1f3807ed26a9a\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+430                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+430-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Qosain\.gradle\caches\transforms-3\128a635510f3364296d1f3807ed26a9a\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+431                android:value="androidx.startup" />
+431-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Qosain\.gradle\caches\transforms-3\128a635510f3364296d1f3807ed26a9a\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+432            <meta-data
+432-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\Qosain\.gradle\caches\transforms-3\b89d8e3d9a86efa333773aaae5ebac16\transformed\jetified-profileinstaller-1.2.0\AndroidManifest.xml:30:13-32:52
+433                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+433-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\Qosain\.gradle\caches\transforms-3\b89d8e3d9a86efa333773aaae5ebac16\transformed\jetified-profileinstaller-1.2.0\AndroidManifest.xml:31:17-85
+434                android:value="androidx.startup" />
+434-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\Qosain\.gradle\caches\transforms-3\b89d8e3d9a86efa333773aaae5ebac16\transformed\jetified-profileinstaller-1.2.0\AndroidManifest.xml:32:17-49
+435        </provider>
+436
+437        <receiver
+437-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\Qosain\.gradle\caches\transforms-3\b89d8e3d9a86efa333773aaae5ebac16\transformed\jetified-profileinstaller-1.2.0\AndroidManifest.xml:35:9-47:20
+438            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+438-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\Qosain\.gradle\caches\transforms-3\b89d8e3d9a86efa333773aaae5ebac16\transformed\jetified-profileinstaller-1.2.0\AndroidManifest.xml:36:13-76
+439            android:directBootAware="false"
+439-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\Qosain\.gradle\caches\transforms-3\b89d8e3d9a86efa333773aaae5ebac16\transformed\jetified-profileinstaller-1.2.0\AndroidManifest.xml:37:13-44
+440            android:enabled="true"
+440-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\Qosain\.gradle\caches\transforms-3\b89d8e3d9a86efa333773aaae5ebac16\transformed\jetified-profileinstaller-1.2.0\AndroidManifest.xml:38:13-35
+441            android:exported="true"
+441-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\Qosain\.gradle\caches\transforms-3\b89d8e3d9a86efa333773aaae5ebac16\transformed\jetified-profileinstaller-1.2.0\AndroidManifest.xml:39:13-36
+442            android:permission="android.permission.DUMP" >
+442-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\Qosain\.gradle\caches\transforms-3\b89d8e3d9a86efa333773aaae5ebac16\transformed\jetified-profileinstaller-1.2.0\AndroidManifest.xml:40:13-57
+443            <intent-filter>
+443-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\Qosain\.gradle\caches\transforms-3\b89d8e3d9a86efa333773aaae5ebac16\transformed\jetified-profileinstaller-1.2.0\AndroidManifest.xml:41:13-43:29
+444                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+444-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\Qosain\.gradle\caches\transforms-3\b89d8e3d9a86efa333773aaae5ebac16\transformed\jetified-profileinstaller-1.2.0\AndroidManifest.xml:42:17-91
+444-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\Qosain\.gradle\caches\transforms-3\b89d8e3d9a86efa333773aaae5ebac16\transformed\jetified-profileinstaller-1.2.0\AndroidManifest.xml:42:25-88
+445            </intent-filter>
+446            <intent-filter>
+446-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\Qosain\.gradle\caches\transforms-3\b89d8e3d9a86efa333773aaae5ebac16\transformed\jetified-profileinstaller-1.2.0\AndroidManifest.xml:44:13-46:29
+447                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+447-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\Qosain\.gradle\caches\transforms-3\b89d8e3d9a86efa333773aaae5ebac16\transformed\jetified-profileinstaller-1.2.0\AndroidManifest.xml:45:17-85
+447-->[androidx.profileinstaller:profileinstaller:1.2.0] C:\Users\Qosain\.gradle\caches\transforms-3\b89d8e3d9a86efa333773aaae5ebac16\transformed\jetified-profileinstaller-1.2.0\AndroidManifest.xml:45:25-82
+448            </intent-filter>
+449        </receiver>
+450
+451        <activity
+451-->[io.agora.rtc:full-screen-sharing:4.1.0-1] C:\Users\Qosain\.gradle\caches\transforms-3\c8c0810160387045ef721c450bbbf206\transformed\jetified-full-screen-sharing-4.1.0-1\AndroidManifest.xml:10:9-13:63
+452            android:name="io.agora.rtc2.extensions.MediaProjectionMgr$LocalScreenCaptureAssistantActivity"
+452-->[io.agora.rtc:full-screen-sharing:4.1.0-1] C:\Users\Qosain\.gradle\caches\transforms-3\c8c0810160387045ef721c450bbbf206\transformed\jetified-full-screen-sharing-4.1.0-1\AndroidManifest.xml:10:19-89
+453            android:configChanges="screenSize|orientation"
+453-->[io.agora.rtc:full-screen-sharing:4.1.0-1] C:\Users\Qosain\.gradle\caches\transforms-3\c8c0810160387045ef721c450bbbf206\transformed\jetified-full-screen-sharing-4.1.0-1\AndroidManifest.xml:11:13-59
+454            android:screenOrientation="fullUser"
+454-->[io.agora.rtc:full-screen-sharing:4.1.0-1] C:\Users\Qosain\.gradle\caches\transforms-3\c8c0810160387045ef721c450bbbf206\transformed\jetified-full-screen-sharing-4.1.0-1\AndroidManifest.xml:12:13-49
+455            android:theme="@android:style/Theme.Translucent" />
+455-->[io.agora.rtc:full-screen-sharing:4.1.0-1] C:\Users\Qosain\.gradle\caches\transforms-3\c8c0810160387045ef721c450bbbf206\transformed\jetified-full-screen-sharing-4.1.0-1\AndroidManifest.xml:13:13-61
+456
+457        <service
+457-->[io.agora.rtc:full-screen-sharing:4.1.0-1] C:\Users\Qosain\.gradle\caches\transforms-3\c8c0810160387045ef721c450bbbf206\transformed\jetified-full-screen-sharing-4.1.0-1\AndroidManifest.xml:15:9-18:19
+458            android:name="io.agora.rtc2.extensions.MediaProjectionMgr$LocalScreenSharingService"
+458-->[io.agora.rtc:full-screen-sharing:4.1.0-1] C:\Users\Qosain\.gradle\caches\transforms-3\c8c0810160387045ef721c450bbbf206\transformed\jetified-full-screen-sharing-4.1.0-1\AndroidManifest.xml:16:13-73
+459            android:foregroundServiceType="mediaProjection" >
+459-->[io.agora.rtc:full-screen-sharing:4.1.0-1] C:\Users\Qosain\.gradle\caches\transforms-3\c8c0810160387045ef721c450bbbf206\transformed\jetified-full-screen-sharing-4.1.0-1\AndroidManifest.xml:17:13-60
+460        </service>
+461
+462        <meta-data
+462-->[com.google.android.instantapps:instantapps:1.1.0] C:\Users\Qosain\.gradle\caches\transforms-3\7f00cfc94bae0b7ccd72ea3c106dad99\transformed\jetified-instantapps-1.1.0\AndroidManifest.xml:10:9-12:33
+463            android:name="aia-compat-api-min-version"
+463-->[com.google.android.instantapps:instantapps:1.1.0] C:\Users\Qosain\.gradle\caches\transforms-3\7f00cfc94bae0b7ccd72ea3c106dad99\transformed\jetified-instantapps-1.1.0\AndroidManifest.xml:11:13-54
+464            android:value="1" />
+464-->[com.google.android.instantapps:instantapps:1.1.0] C:\Users\Qosain\.gradle\caches\transforms-3\7f00cfc94bae0b7ccd72ea3c106dad99\transformed\jetified-instantapps-1.1.0\AndroidManifest.xml:12:13-30
+465    </application>
+466
+467</manifest>

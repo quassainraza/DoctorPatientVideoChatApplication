@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\Qosain\\AndroidStudioProjects\\doctor_care\\build\\stripe_android\\intermediates\\merged_res\\release\\menu\\paymentsheet_payment_methods_list.xml",
+        "source": "C:\\Users\\Qosain\\.gradle\\caches\\transforms-3\\601d143e74508ecc32283084018495fb\\transformed\\jetified-paymentsheet-20.16.2\\res\\menu\\paymentsheet_payment_methods_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Qosain\\AndroidStudioProjects\\doctor_care\\build\\stripe_android\\intermediates\\merged_res\\release\\menu\\add_payment_method.xml",
+        "source": "C:\\Users\\Qosain\\.gradle\\caches\\transforms-3\\a3d84d0568c55d63e727e9486cde31f2\\transformed\\jetified-payments-core-20.16.2\\res\\menu\\add_payment_method.xml"
+    },
+    {
+        "merged": "C:\\Users\\Qosain\\AndroidStudioProjects\\doctor_care\\build\\stripe_android\\intermediates\\merged_res\\release\\menu\\payment_auth_web_view_menu.xml",
+        "source": "C:\\Users\\Qosain\\.gradle\\caches\\transforms-3\\a3d84d0568c55d63e727e9486cde31f2\\transformed\\jetified-payments-core-20.16.2\\res\\menu\\payment_auth_web_view_menu.xml"
+    }
+]
