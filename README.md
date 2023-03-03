@@ -1,1 +1,1 @@
-//Doctor-Patient app
+//Doctor-Patient - video chat application
